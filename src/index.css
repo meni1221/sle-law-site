@@ -204,6 +204,12 @@ textarea:focus-visible {
   font-weight: 500;
   padding-block: 0.4rem;
   border-bottom: 2px solid transparent;
+  display: inline-block;
+  transition: transform 0.18s ease;
+}
+.desktop-nav a:hover,
+.desktop-nav a:focus-visible {
+  transform: scale(1.12);
 }
 .desktop-nav a[aria-current='page'] {
   border-color: var(--color-btn);
