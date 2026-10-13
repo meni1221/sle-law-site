@@ -20,6 +20,7 @@ export default function SiteFooter() {
             className="footer-logo"
           />
         </div>
+        <div className="footer-text-grid">
         <nav aria-label="ניווט תחתון">
           <h2 className="footer-heading">ניווט מהיר</h2>
           <ul className="footer-nav">
@@ -57,6 +58,7 @@ export default function SiteFooter() {
             </li>
             <li>שעות פעילות: {BUSINESS.hours}</li>
           </ul>
+        </div>
         </div>
       </div>
       <div className="container footer-bottom">

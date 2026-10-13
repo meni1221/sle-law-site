@@ -593,6 +593,10 @@ textarea:focus-visible {
   gap: 1.6rem;
   padding-block: 2.5rem;
 }
+.footer-text-grid {
+  display: grid;
+  gap: 1.6rem;
+}
 .footer-logo {
   width: 380px;
   max-width: 100%;
@@ -738,10 +742,11 @@ textarea:focus-visible {
     grid-template-columns: repeat(2, 1fr);
   }
   .footer-grid {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: auto 1fr;
+    gap: 4rem;
   }
-  .footer-grid > div:first-child {
-    padding-inline-end: 4rem;
+  .footer-text-grid {
+    grid-template-columns: repeat(2, 1fr);
   }
   .contact-grid {
     grid-template-columns: 380px 1fr;
