@@ -593,12 +593,6 @@ textarea:focus-visible {
   gap: 1.6rem;
   padding-block: 2.5rem;
 }
-.footer-logo {
-  width: 150px;
-  height: 28px;
-  object-fit: cover;
-  object-position: 50% 100%;
-}
 .footer-heading {
   font-family: var(--font-heading);
   font-size: 1.05rem;
