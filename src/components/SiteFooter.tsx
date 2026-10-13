@@ -14,8 +14,8 @@ export default function SiteFooter() {
           <img
             src="/logo-sle-footer.png"
             alt="SLE Law Office — שירן לוי אלדר"
-            width={170}
-            height={28}
+            width={220}
+            height={36}
             loading="lazy"
             className="footer-logo"
           />
