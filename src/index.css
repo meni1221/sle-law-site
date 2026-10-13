@@ -595,7 +595,7 @@ textarea:focus-visible {
 }
 .footer-text-grid {
   display: grid;
-  gap: 1.6rem;
+  gap: 1rem;
 }
 .footer-logo {
   width: 380px;
