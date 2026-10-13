@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Replace with the production domain when it is final.
+Sitemap: https://www.sle-law.co.il/sitemap.xml
