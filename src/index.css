@@ -308,15 +308,18 @@ textarea:focus-visible {
   inset: -12px;
   background: url('/img-hero.jpg') center / cover no-repeat;
   filter: blur(3px);
+  pointer-events: none;
 }
 .hero-bg::after {
   content: '';
   position: absolute;
   inset: 0;
   background: linear-gradient(to left, rgba(24, 15, 6, 0.78), rgba(24, 15, 6, 0.42));
+  pointer-events: none;
 }
 .hero-bg-inner {
   position: relative;
+  z-index: 1;
   max-width: 46rem;
   padding-block: var(--space-xl);
 }
