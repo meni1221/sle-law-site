@@ -595,7 +595,10 @@ textarea:focus-visible {
 }
 .footer-text-grid {
   display: grid;
-  gap: 1rem;
+  gap: 0.5rem;
+}
+.footer-text-grid > :first-child {
+  justify-self: end;
 }
 .footer-logo {
   width: 380px;
@@ -744,9 +747,6 @@ textarea:focus-visible {
   .footer-grid {
     grid-template-columns: auto 1fr;
     gap: 4rem;
-  }
-  .footer-grid > div:first-child {
-    margin-inline-start: 3rem;
   }
   .footer-text-grid {
     grid-template-columns: repeat(2, 1fr);
