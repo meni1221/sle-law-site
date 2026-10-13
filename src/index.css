@@ -594,7 +594,7 @@ textarea:focus-visible {
   padding-block: 2.5rem;
 }
 .footer-logo {
-  width: 220px;
+  width: 280px;
   height: auto;
 }
 .footer-heading {
@@ -752,7 +752,7 @@ textarea:focus-visible {
     grid-template-columns: 0.95fr 1.05fr;
   }
   .footer-grid {
-    grid-template-columns: auto 1.2fr 1fr 1fr;
+    grid-template-columns: auto 1fr 1fr;
   }
   .cards-grid {
     grid-template-columns: repeat(4, 1fr);
