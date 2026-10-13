@@ -16,7 +16,7 @@ export function legalServiceJsonLd(): Record<string, unknown> {
     description:
       'משרד בוטיק המתמחה בתחומי המס — ליווי הליכים פליליים ואזרחיים בתחומי מס הכנסה ומע"מ.',
     telephone: '+972-54-2068580',
-    email: 'shiran@sle-law.co.il',
+    email: 'Shiraneldar@gmail.com',
     address: {
       '@type': 'PostalAddress',
       addressCountry: 'IL',

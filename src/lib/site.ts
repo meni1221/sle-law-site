@@ -6,8 +6,8 @@ export const BUSINESS = {
   serviceNote: 'שירות טוב ויחס אישי חשובים לא פחות מהידע והמקצועיות.',
   phoneDisplay: '054-2068580',
   phoneHref: 'tel:+972542068580',
-  email: 'shiran@sle-law.co.il',
-  emailHref: 'mailto:shiran@sle-law.co.il',
+  email: 'Shiraneldar@gmail.com',
+  emailHref: 'mailto:Shiraneldar@gmail.com',
   whatsappHref:
     'https://wa.me/972542068580?text=%D7%A9%D7%9C%D7%95%D7%9D%2C%20%D7%90%D7%A9%D7%9E%D7%97%20%D7%9C%D7%99%D7%99%D7%A2%D7%95%D7%A5%20%D7%A8%D7%90%D7%A9%D7%95%D7%A0%D7%99',
   hours: 'ימים א׳–ה׳, 09:00–17:00',
