@@ -50,4 +50,4 @@ public static class BgRemover {
 
 Add-Type -TypeDefinition $csharp -ReferencedAssemblies System.Drawing
 [BgRemover]::Process("public\logo-sle.jpg", "public\logo-sle-header.png", 0, 0, 0, 0, 640, 30, 110)
-[BgRemover]::Process("public\logo-sle-versions.png", "public\logo-sle-footer.png", 0, 455, 2007, 328, 480, 30, 110)
+[BgRemover]::Process("public\logo-sle-versions.png", "public\logo-sle-footer.png", 0, 455, 2007, 328, 1000, 30, 110)

@@ -595,7 +595,7 @@ textarea:focus-visible {
 }
 .footer-text-grid {
   display: grid;
-  gap: 1rem;
+  gap: 10rem;
 }
 .footer-text-grid > :first-child {
   justify-self: end;

@@ -63,7 +63,7 @@ export default function SiteFooter() {
       </div>
       <div className="container footer-bottom">
         <span>
-          © {year} משרד עו״ד {BUSINESS.name}. כל הזכויות שמורות.
+          © {year} משרד  {BUSINESS.name}. כל הזכויות שמורות.
         </span>
         <span>
           <button
