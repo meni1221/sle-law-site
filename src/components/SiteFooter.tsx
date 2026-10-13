@@ -55,11 +55,6 @@ export default function SiteFooter() {
             <li>
               דוא״ל: <a href={BUSINESS.emailHref}>{BUSINESS.email}</a>
             </li>
-            <li>
-              <a href={BUSINESS.whatsappHref} target="_blank" rel="noopener noreferrer">
-                שלחו הודעה ב-WhatsApp
-              </a>
-            </li>
             <li>שעות פעילות: {BUSINESS.hours}</li>
           </ul>
         </div>
