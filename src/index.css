@@ -740,6 +740,9 @@ textarea:focus-visible {
   .footer-grid {
     grid-template-columns: repeat(3, 1fr);
   }
+  .footer-grid > div:first-child {
+    padding-inline-end: 2rem;
+  }
   .contact-grid {
     grid-template-columns: 380px 1fr;
   }
