@@ -11,6 +11,16 @@ export default function SiteFooter() {
     <footer className="site-footer">
       <div className="container footer-grid">
         <div>
+          <img
+            src="/logo-sle-footer.png"
+            alt="SLE Law Office — שירן לוי אלדר"
+            width={170}
+            height={28}
+            loading="lazy"
+            className="footer-logo"
+          />
+        </div>
+        <div>
           <p>
             <strong>
               {BUSINESS.name} — {BUSINESS.office}
