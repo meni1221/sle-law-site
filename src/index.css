@@ -296,6 +296,35 @@ textarea:focus-visible {
   color: var(--color-muted);
   padding: 0.5rem 0.9rem;
 }
+.hero-bg {
+  background: #241708 url('/img-hero.jpg') center / cover no-repeat;
+  color: #fff;
+  position: relative;
+}
+.hero-bg::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to left, rgba(24, 15, 6, 0.78), rgba(24, 15, 6, 0.42));
+}
+.hero-bg-inner {
+  position: relative;
+  max-width: 46rem;
+  padding-block: var(--space-xl);
+}
+.hero-bg .hero-eyebrow {
+  color: #f0e8dc;
+}
+.hero-bg .hero-eyebrow::before {
+  background: #f0e8dc;
+}
+.hero-bg .btn-secondary {
+  color: #fff;
+  border-color: #fff;
+}
+.hero-bg .btn-secondary:hover {
+  background: rgba(255, 255, 255, 0.14);
+}
 
 /* Pillars */
 .pillars {
@@ -858,6 +887,9 @@ textarea:focus-visible {
   }
   .hero {
     padding-block: var(--space-md);
+  }
+  .hero-bg-inner {
+    padding-block: var(--space-lg);
   }
   .hero-ctas .btn {
     flex: 1 1 100%;

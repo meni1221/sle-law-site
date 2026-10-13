@@ -25,9 +25,9 @@ export default function Home() {
         jsonLd={[legalServiceJsonLd(), faqJsonLd(FAQS)]}
       />
       <main id="main-content">
-        <section className="hero" aria-labelledby="hero-heading">
-          <div className="container hero-grid">
-            <div>
+        <section className="hero hero-bg" aria-labelledby="hero-heading">
+          <div className="container">
+            <div className="hero-bg-inner">
               <p className="hero-eyebrow">{BUSINESS.name}</p>
               <h1 id="hero-heading">{BUSINESS.tagline}</h1>
               <p className="hero-sub">{BUSINESS.subTagline}</p>
@@ -41,16 +41,6 @@ export default function Home() {
                 </SecondaryButton>
               </div>
             </div>
-            <figure>
-              <img
-                src="/img-desk.jpg"
-                alt="שולחן עבודה במשרד עורכי דין עם מסמכים ועט"
-                width={1200}
-                height={900}
-                fetchPriority="high"
-              />
-              <figcaption>ייעוץ וליווי משפטי בתחומי המס הפלילי והאזרחי</figcaption>
-            </figure>
           </div>
         </section>
 
@@ -75,10 +65,10 @@ export default function Home() {
         <section className="section" aria-labelledby="about-teaser-heading">
           <div className="container teaser-grid">
             <img
-              src="/img-books.jpg"
-              alt="ספרי חוק ועט על שולחן במשרד"
-              width={1200}
-              height={900}
+              src="/img-about.jpg"
+              alt="מאזני צדק וספר חוק על שולחן במשרד"
+              width={380}
+              height={508}
               loading="lazy"
             />
             <div>
