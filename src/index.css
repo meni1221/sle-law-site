@@ -297,11 +297,19 @@ textarea:focus-visible {
   padding: 0.5rem 0.9rem;
 }
 .hero-bg {
-  background: #241708 url('/img-hero.jpg') center / cover no-repeat;
+  background: #241708;
   color: #fff;
   position: relative;
+  overflow: hidden;
 }
 .hero-bg::before {
+  content: '';
+  position: absolute;
+  inset: -12px;
+  background: url('/img-hero.jpg') center / cover no-repeat;
+  filter: blur(3px);
+}
+.hero-bg::after {
   content: '';
   position: absolute;
   inset: 0;
