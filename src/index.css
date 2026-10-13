@@ -595,10 +595,7 @@ textarea:focus-visible {
 }
 .footer-text-grid {
   display: grid;
-  gap: 10rem;
-}
-.footer-text-grid > :first-child {
-  justify-self: end;
+  gap: 2rem;
 }
 .footer-logo {
   width: 380px;
@@ -751,8 +748,24 @@ textarea:focus-visible {
   .footer-text-grid {
     grid-template-columns: repeat(2, 1fr);
   }
+  .footer-text-grid > :first-child {
+    justify-self: end;
+  }
   .contact-grid {
     grid-template-columns: 380px 1fr;
+  }
+}
+
+@media (max-width: 719px) {
+  .footer-grid {
+    gap: 2rem;
+  }
+  .footer-logo {
+    margin-inline: auto;
+  }
+  .footer-bottom {
+    flex-direction: column;
+    gap: 0.4rem;
   }
 }
 
