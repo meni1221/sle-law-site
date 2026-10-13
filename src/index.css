@@ -740,6 +740,9 @@ textarea:focus-visible {
   .footer-grid {
     grid-template-columns: repeat(2, 1fr);
   }
+  .footer-grid > div:first-child {
+    grid-column: 1 / -1;
+  }
   .contact-grid {
     grid-template-columns: 380px 1fr;
   }
@@ -753,7 +756,7 @@ textarea:focus-visible {
     grid-template-columns: 0.95fr 1.05fr;
   }
   .footer-grid {
-    grid-template-columns: auto 1fr 1fr;
+    grid-template-columns: repeat(3, 1fr);
   }
   .cards-grid {
     grid-template-columns: repeat(4, 1fr);
