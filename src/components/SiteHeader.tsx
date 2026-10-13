@@ -32,10 +32,10 @@ export default function SiteHeader() {
       <div className="container site-header-inner">
         <Link className="brand" to={ROUTES.home} aria-label="דף הבית — SLE Law Office">
           <img
-            src="/logo-sle.jpg"
+            src="/logo-sle-header.png"
             alt="SLE Law Office — שירן לוי אלדר, משרד עורכי דין"
             width={120}
-            height={60}
+            height={47}
           />
           <span className="brand-text">
             <strong>{BUSINESS.name}</strong>
