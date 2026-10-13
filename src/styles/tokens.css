@@ -1,0 +1,23 @@
+:root {
+  --color-cream: #eae0d7;
+  --color-bg: #f4f1ea;
+  --color-bg-light: #fcf9f5;
+  --color-ink: #2e1c0b;
+  --color-btn: #553d24;
+  --color-btn-hover: #43301c;
+  --color-taupe: #9d8d7a;
+  --color-border: #d8cFC2;
+  --color-muted: #6f6154;
+
+  --font-heading: 'Frank Ruhl Libre', 'David Libre', Georgia, serif;
+  --font-body: 'Heebo', 'Assistant', Arial, sans-serif;
+
+  --container: 1140px;
+  --container-narrow: 760px;
+  --radius: 6px;
+  --space-xs: 0.5rem;
+  --space-sm: 1rem;
+  --space-md: 2rem;
+  --space-lg: 3.5rem;
+  --space-xl: 5rem;
+}
