@@ -745,6 +745,9 @@ textarea:focus-visible {
     grid-template-columns: auto 1fr;
     gap: 4rem;
   }
+  .footer-grid > div:first-child {
+    margin-inline-start: 3rem;
+  }
   .footer-text-grid {
     grid-template-columns: repeat(2, 1fr);
   }
