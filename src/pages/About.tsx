@@ -34,10 +34,10 @@ export default function About() {
           <p>{ABOUT_QUOTE}</p>
         </blockquote>
         <img
-          src="/img-about.jpg"
-          alt="מאזני צדק וספר חוק על שולחן במשרד"
-          width={380}
-          height={508}
+          src="/img-books.jpg"
+          alt="ספרי חוק ועט על שולחן במשרד"
+          width={1200}
+          height={900}
           loading="lazy"
         />
         {PILLARS.map((pillar) => (

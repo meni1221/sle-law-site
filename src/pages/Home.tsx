@@ -43,10 +43,10 @@ export default function Home() {
             </div>
             <figure>
               <img
-                src="/img-hero.jpg"
-                alt="שולחן עבודה במשרד עורכי דין עם ספרי חוק ועט"
-                width={783}
-                height={601}
+                src="/img-desk.jpg"
+                alt="שולחן עבודה במשרד עורכי דין עם מסמכים ועט"
+                width={1200}
+                height={900}
                 fetchPriority="high"
               />
               <figcaption>ייעוץ וליווי משפטי בתחומי המס הפלילי והאזרחי</figcaption>
@@ -75,10 +75,10 @@ export default function Home() {
         <section className="section" aria-labelledby="about-teaser-heading">
           <div className="container teaser-grid">
             <img
-              src="/img-about.jpg"
-              alt="מאזני צדק וספר חוק על שולחן במשרד"
-              width={380}
-              height={508}
+              src="/img-books.jpg"
+              alt="ספרי חוק ועט על שולחן במשרד"
+              width={1200}
+              height={900}
               loading="lazy"
             />
             <div>
