@@ -69,16 +69,18 @@ export default function SiteHeader() {
           </nav>
         )}
       </header>
-      <div className="container">
-        <img
-          src="/logo-sle-header.png"
-          alt="SLE Law Office — שירן לוי אלדר, משרד עורכי דין"
-          className="site-header-logo"
-          width={640}
-          height={250}
-          fetchPriority="high"
-        />
-      </div>
+      {pathname === ROUTES.home && (
+        <div className="container">
+          <img
+            src="/logo-sle-header.png"
+            alt="SLE Law Office — שירן לוי אלדר, משרד עורכי דין"
+            className="site-header-logo"
+            width={640}
+            height={250}
+            fetchPriority="high"
+          />
+        </div>
+      )}
     </>
   );
 }
