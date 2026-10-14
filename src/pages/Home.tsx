@@ -73,7 +73,6 @@ export default function Home() {
             />
             <div>
               <h2 id="about-teaser-heading">אודות המשרד</h2>
-              <p>אני יוצאת הפרקליטות.</p>
               <p>{ABOUT_INTRO}</p>
               <blockquote className="quote">
                 <p>{ABOUT_QUOTE}</p>
