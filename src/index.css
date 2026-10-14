@@ -599,14 +599,14 @@ textarea:focus-visible {
 .footer-grid {
   display: grid;
   gap: 1.6rem;
-  padding-block: 2.5rem;
+  padding-block: 1.8rem;
 }
 .footer-text-grid {
   display: grid;
   gap: 2rem;
 }
 .footer-logo {
-  width: 380px;
+  width: 260px;
   max-width: 100%;
   height: auto;
 }
