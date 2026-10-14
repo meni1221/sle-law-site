@@ -20,7 +20,7 @@ export default function WhatsAppFloatingButton() {
         <a href={BUSINESS.phoneHref} onClick={() => track('phone_click', { location: 'mobile-bar' })}>
           התקשרו עכשיו
         </a>
-        <Link to={ROUTES.contact}>לקביעת ייעוץ</Link>
+        <Link to={ROUTES.contact}>לקביעת פגישת ייעוץ</Link>
       </div>
     </>
   );

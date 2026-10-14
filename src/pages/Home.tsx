@@ -33,7 +33,7 @@ export default function Home() {
               <p className="hero-sub">{BUSINESS.subTagline}</p>
               <p>{BUSINESS.serviceNote}</p>
               <div className="hero-ctas">
-                <PrimaryButton to={ROUTES.contact}>לקביעת ייעוץ</PrimaryButton>
+                <PrimaryButton to={ROUTES.contact}>לקביעת פגישת ייעוץ</PrimaryButton>
                 <SecondaryButton
                   href={BUSINESS.whatsappHref}
                 >
@@ -73,6 +73,7 @@ export default function Home() {
             />
             <div>
               <h2 id="about-teaser-heading">אודות המשרד</h2>
+              <p>אני יוצאת הפרקליטות.</p>
               <p>{ABOUT_INTRO}</p>
               <blockquote className="quote">
                 <p>{ABOUT_QUOTE}</p>

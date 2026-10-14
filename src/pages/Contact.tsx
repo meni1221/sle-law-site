@@ -9,12 +9,12 @@ export default function Contact() {
   return (
     <>
       <Seo
-        title="צרו קשר לשיחת ייעוץ ראשונית | עו״ד שירן לוי אלדר"
+        title="צרו קשר לקביעת פגישת ייעוץ | עו״ד שירן לוי אלדר"
         description="צרו קשר עם משרד עו״ד שירן לוי אלדר — טלפון 054-2068580, דוא״ל וטופס פנייה דיסקרטי. ימים א׳–ה׳, 09:00–17:00."
         path={ROUTES.contact}
       />
       <PageHero
-        title="צרו קשר לשיחת ייעוץ ראשונית"
+        title="צרו קשר לקביעת פגישת ייעוץ"
         intro={FINAL_CTA_BODY}
         crumbs={[{ label: 'דף הבית', to: ROUTES.home }, { label: 'צרו קשר' }]}
       />

@@ -11,7 +11,7 @@ export default function CallToAction() {
         <p>{FINAL_CTA_BODY}</p>
         <p>
           <Link className="btn btn-light" to={ROUTES.contact}>
-            צרו קשר לשיחת ייעוץ ראשונית
+            לקביעת פגישת ייעוץ
           </Link>
         </p>
       </div>

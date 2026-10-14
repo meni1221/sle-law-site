@@ -47,7 +47,7 @@ export default function About() {
           </section>
         ))}
         <p>
-          <SecondaryButton to={ROUTES.contact}>לקביעת ייעוץ</SecondaryButton>
+          <SecondaryButton to={ROUTES.contact}>לקביעת פגישת ייעוץ</SecondaryButton>
         </p>
       </main>
       <CallToAction />
