@@ -6,6 +6,7 @@
 
 html {
   scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
 }
 
 html[data-a11y-font='large'] {
@@ -41,6 +42,11 @@ img {
   max-width: 100%;
   height: auto;
   display: block;
+}
+.contact-details a,
+.footer-nav a,
+.section-title {
+  overflow-wrap: break-word;
 }
 
 h1,
@@ -806,11 +812,14 @@ textarea:focus-visible {
   .cards-grid {
     grid-template-columns: repeat(4, 1fr);
   }
-  .pillars-grid {
-    grid-template-columns: repeat(4, 1fr);
-  }
   .menu-toggle {
     display: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  .pillars-grid {
+    grid-template-columns: repeat(4, 1fr);
   }
   .steps {
     grid-template-columns: repeat(5, 1fr);
