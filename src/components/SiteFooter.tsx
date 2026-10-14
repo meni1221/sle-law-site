@@ -61,6 +61,9 @@ export default function SiteFooter() {
         </div>
         </div>
       </div>
+      <div className="container footer-disclaimer">
+        האמור באתר אינו מהווה תחליף לייעוץ משפטי.
+      </div>
       <div className="container footer-bottom">
         <span>
             © כל הזכויות שמורות למשרד {BUSINESS.name} <bdi> {year}</bdi>
