@@ -598,29 +598,29 @@ textarea:focus-visible {
 }
 .footer-grid {
   display: grid;
-  gap: 1.6rem;
-  padding-block: 1rem;
+  gap: 1.2rem;
+  padding-block: 0.8rem;
 }
 .footer-text-grid {
   display: grid;
   gap: 2rem;
 }
 .footer-logo {
-  width: 150px;
+  width: 220px;
   max-width: 100%;
   height: auto;
 }
 .footer-heading {
   font-family: var(--font-heading);
-  font-size: 1.05rem;
-  margin-bottom: 0.6rem;
+  font-size: 1rem;
+  margin-bottom: 0.4rem;
 }
 .footer-nav {
   list-style: none;
   margin: 0;
   padding: 0;
   display: grid;
-  gap: 0.4rem;
+  gap: 0.3rem;
 }
 .footer-nav a {
   text-decoration: none;
