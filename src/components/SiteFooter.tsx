@@ -14,8 +14,8 @@ export default function SiteFooter() {
           <img
             src="/logo-sle-footer.png"
             alt="SLE Law Office — שירן לוי אלדר"
-            width={260}
-            height={131}
+            width={150}
+            height={75}
             loading="lazy"
             className="footer-logo"
           />
@@ -86,7 +86,16 @@ export default function SiteFooter() {
           </button>
         </span>
       </div>
-      <div className="container footer-credit">האתר נבנה על ידי levi-tec</div>
+      <div className="container footer-credit">
+        האתר נבנה על ידי{' '}
+        <a
+          href="https://levi-tec.menilevi0533011599.workers.dev/"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          levi-tec
+        </a>
+      </div>
     </footer>
   );
 }
