@@ -599,14 +599,14 @@ textarea:focus-visible {
 .footer-grid {
   display: grid;
   gap: 1.6rem;
-  padding-block: 1.8rem;
+  padding-block: 1.5rem;
 }
 .footer-text-grid {
   display: grid;
   gap: 2rem;
 }
 .footer-logo {
-  width: 260px;
+  width: 200px;
   max-width: 100%;
   height: auto;
 }
@@ -756,11 +756,11 @@ textarea:focus-visible {
   }
   .footer-grid {
     grid-template-columns: auto 1fr;
-    gap: 4rem;
+    gap: 3rem;
   }
   .footer-text-grid {
     grid-template-columns: repeat(2, 1fr);
-    gap: 10rem;
+    gap: 3rem;
   }
   .footer-text-grid > :first-child {
     justify-self: end;
