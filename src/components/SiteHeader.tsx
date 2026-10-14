@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { Link, NavLink, useLocation } from 'react-router-dom';
+import { NavLink, useLocation } from 'react-router-dom';
 import { BUSINESS, ROUTES } from '../lib/site';
 import { CloseIcon, MenuIcon } from './icons';
 
@@ -30,18 +30,6 @@ export default function SiteHeader() {
   return (
     <header className="site-header">
       <div className="container site-header-inner">
-        <Link className="brand" to={ROUTES.home} aria-label="דף הבית — SLE Law Office">
-          <img
-            src="/logo-sle-header.png"
-            alt="SLE Law Office — שירן לוי אלדר, משרד עורכי דין"
-            width={120}
-            height={47}
-          />
-          <span className="brand-text">
-            <strong>{BUSINESS.name}</strong>
-            <span>{BUSINESS.tagline}</span>
-          </span>
-        </Link>
         <nav className="desktop-nav" aria-label="ניווט ראשי">
           {NAV.map((n) => (
             <NavLink key={n.to} to={n.to} end={n.to === ROUTES.home}>
@@ -61,6 +49,16 @@ export default function SiteHeader() {
             <span aria-hidden="true">{open ? <CloseIcon /> : <MenuIcon />}</span>
           </button>
         </div>
+      </div>
+      <div className="container">
+        <img
+          src="/logo-sle-header.png"
+          alt="SLE Law Office — שירן לוי אלדר, משרד עורכי דין"
+          className="site-header-logo"
+          width={640}
+          height={250}
+          fetchPriority="high"
+        />
       </div>
       {open && (
         <nav id="mobile-nav" className="mobile-nav" aria-label="ניווט נייד">
